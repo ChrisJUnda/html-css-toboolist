@@ -51,8 +51,8 @@ header span{
 }
 
 .tasks{
-    height: 525px;
-    background-color: yellow;
+   padding: 20px 50px;
+    background-color: white;
 }
 /*Inizio Pulsanti*/
 
@@ -62,7 +62,7 @@ header span{
 }
 
 .btn-filled{
-    border: 1px solid rgb(71, 169, 219);;
+    border: 1px solid rgb(71, 169, 219);
     background-color: rgb(71, 169, 219);
     color: white;
 }
@@ -72,6 +72,56 @@ header span{
     border: 1px solid grey;
 }
 /*Fine Pulsanti*/
+/*Inzio Lista*/
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 10px 0;
+}
+
+li .circle{
+    padding: 3px 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.red{
+    border: 1px solid red;
+    color: red;
+}
+
+.green{
+    border: 1px solid green;
+    color: green;
+}
+
+.label{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.bg-lightblue{
+    background-color:rgb(71, 169, 219)  ;
+}
+
+.bg-coral{
+    background-color: coral;
+}
+.bg-darkred{
+    background-color: darkred;
+}
+
+.bg-green{
+    background-color: greenyellow;
+}
+/*Fine Lista*/
 
 /*Fine container*/
 
