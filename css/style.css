@@ -32,5 +32,48 @@ header span{
 
 /*Inizio Main*/
 
+
+/*Inzio container*/
+
+.container{
+    max-width: 991px;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.top{
+    height: 75px;
+    line-height: 75px;
+    padding: 0 50px;
+    border-bottom: 1px solid rgb(188, 184, 184);;
+}
+
+.tasks{
+    height: 525px;
+    background-color: yellow;
+}
+/*Inizio Pulsanti*/
+
+.btn{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn-filled{
+    border: 1px solid rgb(71, 169, 219);;
+    background-color: rgb(71, 169, 219);
+    color: white;
+}
+
+.btn-empty{
+    background-color: transparent;
+    border: 1px solid grey;
+}
+/*Fine Pulsanti*/
+
+/*Fine container*/
+
 /*Fine Main*/
 
