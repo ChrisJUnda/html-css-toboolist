@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(188, 184, 184);
+}
+
+/* Inizio Header*/
+
+header{
+    height: 75px;
+    padding: 15px 0;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+header img{
+    height: 100%;
+    vertical-align: middle;
+    margin: 0px 5px 0px 20px;
+}
+
+header span{
+    font-size: 34px;
+    font-weight: 800;
+    vertical-align: middle;
+}
+/*Fine Header*/
+
+/*Inizio Main*/
+
+/*Fine Main*/
+
